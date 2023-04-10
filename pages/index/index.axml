@@ -14,8 +14,5 @@
       
   </view>
 </view>
-
-
 <button class="btn" size="default" type="primary" onTap="reiniciar">Nueva partida</button>
-
 </view>
