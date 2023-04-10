@@ -1,0 +1,10 @@
+{
+  "subPackageBuildType": "shared",
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "defaultTitle": "trikiSoftgic",
+    "titleBarColor": "#3498DB"
+  }
+}

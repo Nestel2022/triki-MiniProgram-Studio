@@ -1,0 +1,21 @@
+<view class="contenido">
+<view class="tablero">
+  <view class="texto">
+    <text>Triki Softgic</text>
+    <view class="jugador">
+      Jugador:{{ jugador}}
+    </view>
+   
+  </view>
+  <view a:for="{{cuadro}}" a:for-index="i" a:for-item="item" class="fila">
+  <view a:for="{{item}}" class="celda" onTap="campo" a:for-index="j" data-col={{i}} data-row={{j}}>       
+    <text class="white" a:if="{{ item === 'X' }}">{{item}}</text>
+    <text class="red" a:if="{{ item === 'O' }}">{{item}}</text>
+      
+  </view>
+</view>
+
+
+<button class="btn" size="default" type="primary" onTap="reiniciar">Nueva partida</button>
+
+</view>

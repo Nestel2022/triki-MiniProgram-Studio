@@ -1,0 +1,44 @@
+.tablero { 
+  display: flex;
+  flex-direction: column;
+  width: 100%;  
+}
+
+.fila {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.celda {
+  width: 120px;
+  height: 120px;
+  border: 1px solid rgb(255, 255, 255);
+  font-size: 50px;
+  text-align: center;
+  line-height: 130px;
+  background-color: #99d2f8;
+}
+
+.red{
+  color: red;
+}
+.white{
+  color: white;
+}
+
+.texto{
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #78c3f5;
+  color: #fff;
+}
+
+.btn{
+  margin-top: 20px;
+}
+
+.jugador{
+  font-size: 24px;
+}
