@@ -4,7 +4,8 @@
     <text>Triki Softgic</text>
     <view class="jugador">
       Jugador:{{ jugador}}
-    </view>   
+    </view>  
+     
   </view>
   <view a:for="{{cuadro}}" a:for-index="i" a:for-item="item" class="fila">
   <view a:for="{{item}}" class="celda" onTap="campo" a:for-index="j" data-col={{i}} data-row={{j}}>       
